@@ -10,12 +10,12 @@ int main(void)
 	char lCase = 'a';
 	char uCase = 'A';
 
-	while(lCase <= 'z')
+	while (lCase <= 'z')
 	{
 		putchar(lCase);
 		lCase++;
 	}
-	while(uCase <= 'Z')
+	while (uCase <= 'Z')
 	{
 		putchar(uCase);
 		uCase++;
