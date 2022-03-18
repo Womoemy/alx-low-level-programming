@@ -2,13 +2,22 @@
 
 /**
  * _abs - computes the absolute value of an integer
- * @int: integer whose absolute value is to be computed
+ * @c: integer whose absolute value is to be computed
  *
- * Return: Always 0 (success)
+ * Return: an integer
  */
 int _abs(int c)
 {
-	_abs(c);
-
-	return (0);
+	if (c > 0)
+	{
+		return (c);
+	}
+	else if (c < 0)
+	{
+		return (-c);
+	}
+	else
+	{
+		return (c);
+	}
 }
