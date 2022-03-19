@@ -16,5 +16,4 @@ int print_last_digit(int n)
 	_putchar('0' + d);
 
 	return (d);
-	// I dont know why my file isnt compiling
 }
