@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * jack_bauer(void) - print every minute of the day
+ * jack_bauer - print every minute of the day
  *
  * Description: function that prints every minute of the day of Jack Bauer
- * Return: Always 0 success
  */
 void jack_bauer(void)
 {
