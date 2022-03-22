@@ -3,6 +3,8 @@
 
 /**
  * add - add two integers and return the result
+ * @a: first integer
+ * @b: second integer
  *
  * Return: the sum of the integers
  */
@@ -12,5 +14,5 @@ int add(int a, int b)
 
 	sum = a + b;
 
-	return sum;
+	return (sum);
 }
