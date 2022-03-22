@@ -18,22 +18,22 @@ void times_table(void)
 			if (column == 0)
 			{
 				_putchar('0');
-				_putchar(',');
 			}
 			else if (product <= 9)
 			{
-				_putchar(' ');
-				_putchar('0');
-				_putchar(unit + '0');
 				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(unit + '0');
 			}
 			else
 			{
+				_putchar(',');
 				_putchar(' ');
 				_putchar(tens + '0');
 				_putchar(unit + '0');
 			}
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
