@@ -10,7 +10,8 @@
  */
 int main(int argc, char *argv[])
 {
-	printf("%d\n", argc);
+	(void) argv; /*Ignore argv - unused parameter*/
+	printf("%d\n", argc - 1); /*don't include the program name*/
 
 	return (0);
 }
